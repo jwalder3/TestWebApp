@@ -1,0 +1,42 @@
+﻿<h2>Submitted Contacts</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in Model.ContactList)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Email</td>
+                <td>@contact.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Submitted Contacts</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in Model.ContactList)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Email</td>
+                <td>@contact.Message</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
